@@ -13,3 +13,4 @@ int main() {
         std::cerr << "image:" << imgName << " not readable." << std::endl;
     return 0;
 }
+
