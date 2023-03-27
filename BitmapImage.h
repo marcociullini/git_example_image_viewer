@@ -13,7 +13,9 @@ public:
 
 private:
     int width, height;
-    char *buffer;
+    char channels;//se bianco o nero o colori
+    char depth;//profondità del colore
+    int *buffer;
     std::string name;
 };
 
